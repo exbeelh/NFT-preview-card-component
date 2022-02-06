@@ -21,7 +21,7 @@ body {
 
 .container {
     height: 540px;
-    width: 300px;
+    width: 280px;
     background-color: var(--very-dark-blue-card);
     border-radius: 20px;
     padding: 20px;
@@ -30,7 +30,7 @@ body {
 }
 
 img {
-    height: 300px;
+    height: 280px;
     width: auto;
     border-radius: 10px;
 }
@@ -39,8 +39,8 @@ img {
     position: absolute;
     top: 77px;
     bottom: 0;
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     background-color: var(--Cyan);
     border-radius: 10px;
     opacity: 0;
@@ -59,6 +59,12 @@ img {
     opacity: 0.5;
 }
 
+hr {
+    height: 1px;
+    background-color:#2f4159;
+    border: none;
+}
+
 a {
     text-decoration: none;
     color: var(--White);
@@ -72,12 +78,14 @@ a:hover {
 h1 {
     font-family: var(--ff);
     font-size: 24px;
+    padding-bottom: 5px;
 }
 
 p {
     font-family: var(--ff);
     color: var(--soft-blue);
     font-size: var(--f-size);
+    padding-bottom: 20px;
 }
 
 .info-time {
