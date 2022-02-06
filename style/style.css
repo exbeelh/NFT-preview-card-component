@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    --very-dark-blue-main: hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+    --ff: Outfit, sans-mono;
+    --f-size: 16px;
+}
+
+body {
+    background-color: var(--very-dark-blue-main);
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    height: 540px;
+    width: 300px;
+    background-color: var(--very-dark-blue-card);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 1px 10px 10px 10px #0c1729;
+}
+
+img {
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 77px;
+    bottom: 0;
+    height: 300px;
+    width: 300px;
+    background-color: var(--Cyan);
+    border-radius: 10px;
+    opacity: 0;
+    transition: .2s ease;
+    margin: 0px;
+}
+
+.icon {
+    position: absolute;
+    height: 50px;
+    width: auto;
+    padding: 70px 60px;
+}
+
+.overlay:hover {
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+    color: var(--White);
+    font-family: var(--ff);
+}
+
+a:hover {
+    color: var(--Cyan);
+}
+
+h1 {
+    font-family: var(--ff);
+    font-size: 24px;
+}
+
+p {
+    font-family: var(--ff);
+    color: var(--soft-blue);
+    font-size: var(--f-size);
+}
+
+.info-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+li {
+    font-family: var(--ff);
+    font-size: var(--f-size);
+    color: var(--soft-blue);
+    padding: 0 0 0 22px;
+    display: inline;
+}
+
+.price {
+    background: url(/images/icon-ethereum.svg) no-repeat 0.1em;
+    color: var(--Cyan);
+}
+
+.time {
+    background: url(/images/icon-clock.svg) no-repeat 0.1em;
+    float: right;
+}
+
+.info-user {
+    display: flex;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+.username {
+    background: url(/images/image-avatar.png) no-repeat;
+    background-size: contain;
+    padding: 10px 0px 10px 50px;   
+}
+
+.attribution {
+    font-family: var(--ff);
+    font-size: var(--f-size);
+    color: var(--White);
+}
+
+
+
