@@ -100,12 +100,12 @@ li {
 }
 
 .price {
-    background: url(/images/icon-ethereum.svg) no-repeat 0.1em;
+    background: url("../images/icon-ethereum.svg") no-repeat 0.1em;
     color: var(--Cyan);
 }
 
 .time {
-    background: url(/images/icon-clock.svg) no-repeat 0.1em;
+    background: url("../images/icon-clock.svg") no-repeat 0.1em;
     float: right;
 }
 
@@ -116,7 +116,7 @@ li {
 }
 
 .username {
-    background: url(/images/image-avatar.png) no-repeat;
+    background: url("../images/image-avatar.png") no-repeat;
     background-size: contain;
     padding: 10px 0px 10px 50px;   
 }
